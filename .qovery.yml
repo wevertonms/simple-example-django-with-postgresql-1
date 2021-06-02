@@ -5,7 +5,7 @@ application:
   publicly_accessible: true
 databases:
   - type: postgresql
-    version: "12"
+    version: "12.4"
     name: my-db
 routers:
   - name: main
